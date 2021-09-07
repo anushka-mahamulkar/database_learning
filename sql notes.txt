@@ -1,0 +1,33 @@
+MY SQL
+
+(db1 is the name given to the database)
+1. To create a database: create database db1;
+2. To select or use database: use db1;   
+3. To create a table in database: CREATE TABLE customers    
+                                  (id int(10),    
+                                  name varchar(50),    
+                                  city varchar(50),  
+                                  PRIMARY KEY (id )    
+                                  );       
+
+4. To alter a query-(it is used to add,modify, delete or drop column of a table):              
+                     ALTER TABLE customers   
+                     ADD age varchar(50);  
+
+5. To insert a query- (it is used to insert a record in a table):
+                     insert into customers values(10,'Karan','Mumbai');
+
+6. To update a query- (it is used to update any query):
+                      update customers set name='bob', city='london' where id=10;
+
+7. To delete a query- (it is used to delete a query from the table):
+                      delete from customers where id=10;  
+					  
+8. To select a query- (it is used to fetch records from database):
+                      SELECT * from customers;
+					  
+9. To truncate a table query- (it is used to truncate or remove records of a table):
+                              truncate table customers; 
+							  
+10. To drop query- (it is used to drop a table, view or database):
+                    drop table customers; 
